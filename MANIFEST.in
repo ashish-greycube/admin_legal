@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include admin_legal *.css
+recursive-include admin_legal *.csv
+recursive-include admin_legal *.html
+recursive-include admin_legal *.ico
+recursive-include admin_legal *.js
+recursive-include admin_legal *.json
+recursive-include admin_legal *.md
+recursive-include admin_legal *.png
+recursive-include admin_legal *.py
+recursive-include admin_legal *.svg
+recursive-include admin_legal *.txt
+recursive-exclude admin_legal *.pyc
